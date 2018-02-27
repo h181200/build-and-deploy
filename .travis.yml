@@ -1,10 +1,13 @@
 language: node_js
 node_js:
 - '8'
-cache:
+cache: 
 directories:
 - node_modules
 script:
-  - npm run lint
-  - npm test
-  - npm run build
+- npm run lint
+- npm test
+- npm run build
+deploy:
+  api_key:
+    secure: d/pTBMGea3VgNMxECwjDS3Yl8ACNkPtWgGj9EfIlfM4F0VJ8Kl031v84h8/OFfxRrf1ziUR6F9FrSJGUr/d3UN0QWzSrWwwhKtlY7ymMDYevemRyZNFlmS6l/bg3CzRt91bYP84wufcTiDv+Aa2Friv1btONXGSNA/NZhezgpxDNvp/f9Kppkg+pudk1DFM2vwpVWuXKNdChAc0SkygASOkLUEN1P1PmfNIaS67E7Kl6+SDT/K9bZuxnaEX4LV+5OvyY9sAjEFsr85ajCmXXjo0XTLPgA29lhQclETlyPxnExLimW5HpYTrK1RZ43ms2RlSbEcZHolIsgTUPHFaANwPiUtUkufqUCgtJ/y79Uwyx/IgXySoNR4UUCWIVBHbaRNnXB6Oo/6Jy6s7DoKwSe7SQUraKDtCaOVH29IH0yRz9ezzs18Q1BpWXuZ3GSCnaoucTTuZ8tP6Copw3oOvo2ms7u5DO1++l+IOgmiZ90JEGXLVpkpKfH1kEAuAMMJymwlJLkJQ7NBHPXptpHDabs1S6kpdslW9yCZMyqLfnku09ODv+Oolssrt5F79aFiV5UWWQ8vS+A56p+c10BrKxLsCixLUKl0V+jxu3I56wrd8t8gqIduUA/yBVwWeIRZOE5ShkNFe6rBJ2dMyoiHo0AusFhtmVX0MVpp8Zs7tM1Vo=
